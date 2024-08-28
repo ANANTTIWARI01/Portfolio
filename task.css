@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,body{
+    background-color: rgb(91, 91, 186);
+}
+.portfolio{
+background-color: #91e0ef;
+height: 360px;
+    width: 310px;
+margin: 40px auto;
+border-radius: 20px;
+}
+
+.image{
+    width: 80px;
+    height: 80px;
+    margin: 0px auto;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 30px ;
+    border: 5px solid #fff;
+    box-shadow: 8px 8px 45px #777676;
+
+}
+
+.name{
+    text-align: center;
+    margin: 40px 0px 0px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    /* margin: auto; */
+    justify-content: center;
+    /* width: 300px; */
+    /* object-fit: contain; */
+}
+.info {
+    text-align: center;
+    /* margin: auto; */
+}
+.info1{
+font-size: 14px;
+font-weight: bold;
+
+}
+
+
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items:center;
+    margin: 20px 0px;
+    padding: 0px 35px;
+
+}
+
+.logos img{
+    height: 25px;
+    width: 25px ;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+
+/* .logo1{
+    background-color:  #3b5998;
+}
+
+.logo2{
+    background-color:   #1da1f2;
+}
+.logo3{
+    background-color:  #fd1d1d;
+}
+.logo4{
+    background-color: #0077b5;
+} */
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.button1{
+    background-color:green;
+width: 114px;
+height: 35px;
+border-radius: 20px;
+text-align: center;
+padding-top:5px ;
+
+}
+
+.button1 a{
+text-decoration: none;
+color: #fff;
+
+}
+
+.button2{
+    background-color:green;
+width: 114px;
+height: 35px;
+border-radius: 20px;
+text-align: center;
+padding-top:5px ;
+
+}
+
+.button2 a{
+text-decoration: none;
+color: #fff;
+
+}
+
+.comments{
+    width: 100px ;
+    height: 100px;
+    margin: 10px 0px;
+    display: flex;
+    padding: 0px 41px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.hey{
+     /* text-align: center; */
+     /* margin: auto; */
+     margin: 10px auto;
+     /* background-color: #91e0ef; */
+     display: flex;
+     /* align-items: center; */
+     /* justify-content: center; */
+
+}
+.hey  img{
+    height: 30px ;
+    width: 30px;
+border-radius: 50%;
+object-position: center;
+
+}
+
+.hey p{
+    font-size: 18px;
+    width: 43px;
+}
+
+.aur{
+    width: 30px;
+}
+
+.aur i{
+    margin: 0px 10px;
+}
